@@ -1,0 +1,22 @@
+div {
+}
+
+.grid {
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: repeat(600, 1px);
+    grid-template-rows: repeat(600, 1px);
+    width: 600px;
+}
+
+.grid-item-white {
+    background-color: white;
+    width: 1px;
+    height: 1px;
+}
+
+.grid-item-black {
+    background-color: black;
+    width: 1px;
+    height: 1px;
+}

@@ -9,9 +9,6 @@ const DragonTiling = () => {
 
     const canvasRef = useRef(null);
 
-    console.log(minI, maxI, minJ, maxJ, width, height);
-
-
     useEffect(() => {
         // Get the 2D rendering context
         const ctx = canvasRef.current.getContext('2d');
